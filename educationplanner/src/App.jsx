@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import FormComponent from "./components/FormComponent/FormComponent";
-import PlanContainer from "./components/PlanContainerComponent/PlanContainer";
+import FormComponent from "./Components/FormComponent/FormComponent";
+import PlanContainer from "./Components/PlanContainerComponent/PlanContainer";
 function App() {
   const [data, setData] = useState(() => {
     const localData = localStorage.getItem("data");
